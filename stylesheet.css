@@ -404,8 +404,12 @@ footer img {
     width: 40px;
 }
 footer section {
-    margin-left: 290px;
-    margin-right: 290px;
+    position: absolute;
+    margin-left: 0;
+    left: 10px;
+}
+footer {
+    margin-top: 50px;
 }
 #badgeInfo {
     top: 1300px;
@@ -448,7 +452,12 @@ footer img {
     width: 40px;
 }
 footer section {
-    margin-left: 550px;
+    position: absolute;
+    left: 10px;
+    margin-left: 0px;
+}
+footer {
+    margin-top: 50px;
 }
 #badgesBuy {
     grid-template-columns: 1fr 1fr 1fr;
@@ -461,7 +470,7 @@ footer section {
     padding-left: 250px;
 }
 #fBadge {
-    top: 1230px;
+    top: 1170px;
 }
 .about {
     padding-left: 200px;
@@ -479,6 +488,6 @@ footer section {
     top: 660px;
 }
 #fAbout {
-    top: 1190px;
+    top: 1180px;
 }
 }
